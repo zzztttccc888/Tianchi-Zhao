@@ -4,21 +4,30 @@
   <meta charset="UTF-8">
   <title>Tianchi Zhao - CV</title>
   <style>
-        body {
-          font-family: "Times New Roman", serif;
-          margin: 40px;
-          line-height: 1.6;
-        }
+    body {
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+      font-family: "Times New Roman", serif;
+    }
 
-      .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-      }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
 
-      .centered-section {
-        text-align: center;
-      }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .intro {
+      flex: 1;
+      word-break: break-word;
+    }
 
     .profile-box {
       text-align: center;
@@ -33,10 +42,6 @@
     .profile-box p {
       margin: 5px 0;
       font-size: 0.95em;
-    }
-
-    .content {
-      margin-top: 30px;
     }
 
     h2 {
@@ -58,74 +63,79 @@
 </head>
 <body>
 
-  <!-- 顶部：左文字右图片 -->
-  <div class="header">
-    <div class="intro">
-      <h1>Tianchi Zhao</h1>
-      <p>PhD Applicant in Mechanical Engineering</p>
+  <div class="container">
+
+    <!-- 顶部：左文字右图片 -->
+    <div class="header">
+      <div class="intro">
+        <h1>Tianchi Zhao</h1>
+        <p>PhD Applicant in Mechanical Engineering</p>
+        <p>Researcher from China University of Mining and Technology, focused on fault diagnosis, signal processing, and industrial applications.</p>
+      </div>
+      <div class="profile-box">
+        <img src="imgs/profile.jpg" alt="Profile Photo">
+        <p>Email: <a href="mailto:1010811393@qq.com">1010811393@qq.com</a></p>
+        <p>Phone: 15736267430</p>
+        <p><a href="cv/Tianchi_Zhao_CV.pdf" target="_blank">📄 Download CV</a></p>
+      </div>
     </div>
-    <div class="profile-box">
-      <img src="imgs/profile.jpg" alt="Profile Photo">
-      <p>Email: <a href="mailto:1010811393@qq.com">1010811393@qq.com</a></p>
-      <p>Phone: 15736267430</p>
-      <p><a href="cv/Tianchi_Zhao_CV.pdf" target="_blank">📄 Download CV</a></p>
+
+    <!-- 正文内容 -->
+    <div class="centered-section">
+
+      <h2>🎓 Education</h2>
+      <p><strong>China University of Mining and Technology</strong>, MSc in Mechanical Engineering (2023.09 – Present)<br>
+      - Top 4 in admission; First-class Scholarship.</p>
+      <p><strong>Chongqing University of Science & Technology</strong>, BEng in Mechanical Design and Automation (2014.09 – 2018.06)<br>
+      - GPA: 3.33 / 4.0</p>
+
+      <h2>💼 Work Experience</h2>
+      <p><strong>Chengdu Chenglin CNC Tools Co., Ltd.</strong> – Mechanical Engineer (2019 ~)</p>
+      <ul>
+        <li>Designed custom non-standard tools (eccentric, modular, boring heads, hydraulic holders).</li>
+        <li>Developed ProE/CAD drawings and process sheets.</li>
+        <li>Familiar with 42CrMo and treatments: quenching, blackening, etc.</li>
+      </ul>
+
+      <p><strong>Nanjing Lego Medical Devices Co., Ltd.</strong> – Project Manager (2021 ~)</p>
+      <ul>
+        <li>Led photon therapy device and sterilizer projects.</li>
+        <li>Designed mechanisms, wrote SOPs and internal standards.</li>
+        <li>Participated in audits and technical document submissions.</li>
+      </ul>
+
+      <h2>🛠 Master Research</h2>
+      <p><strong>Topic:</strong> Fault Diagnosis of Rolling Bearings under Harsh Conditions</p>
+      <ul>
+        <li>Built a test rig and proposed a dual-core adaptive denoising network.</li>
+        <li>Published on interpretable fault diagnosis using structured learning.</li>
+        <li>Currently working on domain adaptation dictionary method.</li>
+      </ul>
+
+      <h2>📚 Publications</h2>
+      <ul>
+        <li>“Enhancing Interpretability via Fine-Grained Targets...” – 1st Author, MSSP (under review)</li>
+        <li>“A Novel Dual-Core Adaptive Nonlocal Sparse Network...” – 1st Author, in revision</li>
+      </ul>
+
+      <h2>🧠 Skills</h2>
+      <ul>
+        <li>SolidWorks, ProE, AutoCAD</li>
+        <li>Python, MATLAB, C</li>
+        <li>Signal processing & dictionary learning</li>
+        <li>Optimization methods: ADMM, BCD</li>
+      </ul>
+
+      <footer>
+        <p>Last updated: July 2025 | © Tianchi Zhao</p>
+      </footer>
+
     </div>
   </div>
-
-  <!-- 正文内容 -->
-  <div class="content">
-
-    <h2>🎓 Education</h2>
-    <p><strong>China University of Mining and Technology</strong>, MSc in Mechanical Engineering (2023.09 – Present)<br>
-    - Top 4 in admission; First-class Scholarship.</p>
-    <p><strong>Chongqing University of Science & Technology</strong>, BEng in Mechanical Design and Automation (2014.09 – 2018.06)<br>
-    - GPA: 3.33 / 4.0</p>
-
-    <h2>💼 Work Experience</h2>
-    <p><strong>Chengdu Chenglin CNC Tools Co., Ltd.</strong> – Mechanical Engineer (2019 ~)</p>
-    <ul>
-      <li>Designed custom non-standard tools (eccentric, modular, boring heads, hydraulic holders).</li>
-      <li>Developed ProE/CAD drawings and process sheets.</li>
-      <li>Familiar with 42CrMo and treatments: quenching, blackening, etc.</li>
-    </ul>
-
-    <p><strong>Nanjing Lego Medical Devices Co., Ltd.</strong> – Project Manager (2021 ~)</p>
-    <ul>
-      <li>Led photon therapy device and sterilizer projects.</li>
-      <li>Designed mechanisms, wrote SOPs and internal standards.</li>
-      <li>Participated in audits and technical document submissions.</li>
-    </ul>
-
-    <h2>🛠 Master Research</h2>
-    <p><strong>Topic:</strong> Fault Diagnosis of Rolling Bearings under Harsh Conditions</p>
-    <ul>
-      <li>Built a test rig and proposed a dual-core adaptive denoising network.</li>
-      <li>Published on interpretable fault diagnosis using structured learning.</li>
-      <li>Currently working on domain adaptation dictionary method.</li>
-    </ul>
-
-    <h2>📚 Publications</h2>
-    <ul>
-      <li>“Enhancing Interpretability via Fine-Grained Targets...” – 1st Author, MSSP (under review)</li>
-      <li>“A Novel Dual-Core Adaptive Nonlocal Sparse Network...” – 1st Author, in revision</li>
-    </ul>
-
-    <h2>🧠 Skills</h2>
-    <ul>
-      <li>SolidWorks, ProE, AutoCAD</li>
-      <li>Python, MATLAB, C</li>
-      <li>Signal processing & dictionary learning</li>
-      <li>Optimization methods: ADMM, BCD</li>
-    </ul>
-
-  </div>
-
-  <footer>
-    <p>Last updated: July 2025 | © Tianchi Zhao</p>
-  </footer>
 
 </body>
 </html>
+
 
 
 
