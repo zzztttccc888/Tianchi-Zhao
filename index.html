@@ -1,125 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Tianchi Zhao - PhD Applicant</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            max-width: 900px;
-        }
+  <meta charset="UTF-8">
+  <title>Tianchi Zhao - CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+    }
 
-        .header {
-            display: flex;
-            align-items: center;
-        }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
 
-        .header img {
-            width: 120px;
-            height: 120px;
-            border-radius: 8px;
-            margin-right: 20px;
-        }
+    .profile-box {
+      text-align: center;
+      width: 200px;
+    }
 
-        h1 {
-            margin-bottom: 5px;
-        }
+    .profile-box img {
+      width: 150px;
+      border-radius: 8px;
+    }
 
-        section {
-            margin-top: 30px;
-        }
+    .profile-box p {
+      margin: 5px 0;
+      font-size: 0.95em;
+    }
 
-        ul {
-            line-height: 1.6;
-        }
+    .content {
+      margin-top: 30px;
+    }
 
-        footer {
-            margin-top: 50px;
-            font-size: 0.9em;
-            color: gray;
-        }
-    </style>
+    h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: gray;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
 
-    <!-- 头像和基本信息 -->
-    <div class="header">
-        <img src="imgs/profile.jpg" alt="Profile Photo">
-        <div>
-            <h1>Tianchi Zhao</h1>
-            <p>PhD Applicant in Mechanical Engineering</p>
-            <p>Email: <a href="mailto:1010811393@qq.com">1010811393@qq.com</a></p>
-            <p>Phone: 15736267430</p>
-            <p><a href="cv/Tianchi_Zhao_CV.pdf" target="_blank">📄 Download CV</a></p>
-        </div>
+  <!-- 顶部：左文字右图片 -->
+  <div class="header">
+    <div class="intro">
+      <h1>Tianchi Zhao</h1>
+      <p>PhD Applicant in Mechanical Engineering</p>
     </div>
+    <div class="profile-box">
+      <img src="imgs/profile.jpg" alt="Profile Photo">
+      <p>Email: <a href="mailto:1010811393@qq.com">1010811393@qq.com</a></p>
+      <p>Phone: 15736267430</p>
+      <p><a href="cv/Tianchi_Zhao_CV.pdf" target="_blank">📄 Download CV</a></p>
+    </div>
+  </div>
 
-    <!-- 教育 -->
-    <section id="education">
-        <h2>🎓 Education</h2>
-        <p><strong>China University of Mining and Technology</strong>, MSc in Mechanical Engineering (2023.09 – Present)<br>
-        - Top 4 in admission; First-class Scholarship.</p>
-        <p><strong>Chongqing University of Science & Technology</strong>, BEng in Mechanical Design and Automation (2014.09 – 2018.06)<br>
-        - GPA: 3.33 / 4.0</p>
-    </section>
+  <!-- 正文内容 -->
+  <div class="content">
 
-    <!-- 工作经历 -->
-    <section id="experience">
-        <h2>💼 Work Experience</h2>
-        <p><strong>Chengdu Chenglin CNC Tools Co., Ltd.</strong> – Mechanical Engineer (2019 ~)</p>
-        <ul>
-            <li>Designed custom tools: eccentric turning tools, modular heads, multi-hole boring, hydraulic holders.</li>
-            <li>Developed drawings and process documents using ProE/CAD.</li>
-            <li>Experienced with materials (42CrMo) and treatments (quenching, blackening, sandblasting).</li>
-        </ul>
+    <h2>🎓 Education</h2>
+    <p><strong>China University of Mining and Technology</strong>, MSc in Mechanical Engineering (2023.09 – Present)<br>
+    - Top 4 in admission; First-class Scholarship.</p>
+    <p><strong>Chongqing University of Science & Technology</strong>, BEng in Mechanical Design and Automation (2014.09 – 2018.06)<br>
+    - GPA: 3.33 / 4.0</p>
 
-        <p><strong>Nanjing Lego Medical Devices Co., Ltd.</strong> – Project Manager (2021 ~)</p>
-        <ul>
-            <li>Led product R&D for photon therapy and sterilizer devices.</li>
-            <li>Designed mechanical structures with SolidWorks, compiled SOPs and standards.</li>
-            <li>Assisted with audits, technical documentation and on-site communication.</li>
-        </ul>
-    </section>
+    <h2>💼 Work Experience</h2>
+    <p><strong>Chengdu Chenglin CNC Tools Co., Ltd.</strong> – Mechanical Engineer (2019 ~)</p>
+    <ul>
+      <li>Designed custom non-standard tools (eccentric, modular, boring heads, hydraulic holders).</li>
+      <li>Developed ProE/CAD drawings and process sheets.</li>
+      <li>Familiar with 42CrMo and treatments: quenching, blackening, etc.</li>
+    </ul>
 
-    <!-- 项目 -->
-    <section id="projects">
-        <h2>🛠 Research Project</h2>
-        <p><strong>Master Thesis:</strong> Fault Diagnosis of Rolling Bearings under Harsh Conditions</p>
-        <ul>
-            <li>Built a test bench with bearing–gearbox system.</li>
-            <li>Proposed a dual-core adaptive sparse denoising network.</li>
-            <li>Developed a manifold model for noisy signal diagnosis.</li>
-            <li>Currently exploring cross-domain fault diagnosis using dictionary learning.</li>
-        </ul>
-    </section>
+    <p><strong>Nanjing Lego Medical Devices Co., Ltd.</strong> – Project Manager (2021 ~)</p>
+    <ul>
+      <li>Led photon therapy device and sterilizer projects.</li>
+      <li>Designed mechanisms, wrote SOPs and internal standards.</li>
+      <li>Participated in audits and technical document submissions.</li>
+    </ul>
 
-    <!-- 论文 -->
-    <section id="publications">
-        <h2>📚 Publications</h2>
-        <ul>
-            <li>“Enhancing Interpretability via Fine-Grained Targets...” – 1st Author, under review at MSSP</li>
-            <li>“A Novel Dual-Core Adaptive Nonlocal Sparse Network...” – 1st Author, in revision</li>
-        </ul>
-    </section>
+    <h2>🛠 Master Research</h2>
+    <p><strong>Topic:</strong> Fault Diagnosis of Rolling Bearings under Harsh Conditions</p>
+    <ul>
+      <li>Built a test rig and proposed a dual-core adaptive denoising network.</li>
+      <li>Published on interpretable fault diagnosis using structured learning.</li>
+      <li>Currently working on domain adaptation dictionary method.</li>
+    </ul>
 
-    <!-- 技能 -->
-    <section id="skills">
-        <h2>🧠 Skills</h2>
-        <ul>
-            <li>Software: SolidWorks, ProE, AutoCAD</li>
-            <li>Programming: Python, MATLAB, C</li>
-            <li>Signal Processing: dictionary learning, convex optimization</li>
-            <li>Optimization: ADMM, Block Coordinate Descent</li>
-        </ul>
-    </section>
+    <h2>📚 Publications</h2>
+    <ul>
+      <li>“Enhancing Interpretability via Fine-Grained Targets...” – 1st Author, MSSP (under review)</li>
+      <li>“A Novel Dual-Core Adaptive Nonlocal Sparse Network...” – 1st Author, in revision</li>
+    </ul>
 
-    <footer>
-        <p>Last updated: July 2025 | © Tianchi Zhao</p>
-    </footer>
+    <h2>🧠 Skills</h2>
+    <ul>
+      <li>SolidWorks, ProE, AutoCAD</li>
+      <li>Python, MATLAB, C</li>
+      <li>Signal processing & dictionary learning</li>
+      <li>Optimization methods: ADMM, BCD</li>
+    </ul>
+
+  </div>
+
+  <footer>
+    <p>Last updated: July 2025 | © Tianchi Zhao</p>
+  </footer>
 
 </body>
 </html>
+
 
 
 
