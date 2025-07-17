@@ -1,108 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Tianchi Zhao - PhD Applicant</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px auto;
-      max-width: 800px;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    h1 {
-      border-bottom: 2px solid #3498db;
-      padding-bottom: 5px;
-    }
-    a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Tianchi Zhao - PhD Applicant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imgs/profile.jpg">
 </head>
+
 <body>
+    <div id="sidebar">
+        <img src="imgs/profile.jpg" alt="Profile Photo" class="profile-pic">
+        <h1>Tianchi Zhao</h1>
+        <p>PhD Applicant in Mechanical Engineering</p>
+        <p><a href="mailto:1010811393@qq.com">📧 1010811393@qq.com</a></p>
+        <p>📱 15736267430</p>
+        <p><a href="cv/Tianchi_Zhao_CV.pdf" target="_blank">📄 Download CV</a></p>
+        <nav>
+            <ul>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#publications">Publications</a></li>
+            </ul>
+        </nav>
+    </div>
 
-  <h1>Tianchi Zhao</h1>
-  <p><strong>PhD Applicant in Mechanical Engineering</strong></p>
-  <p>Email: <a href="mailto:1010811393@qq.com">1010811393@qq.com</a> | Phone: +86 157 3626 7430</p>
-  <p>Expected Graduation: June 2026 | Location: Jiangsu, China</p>
-  <p>English Level: CET-6</p>
+    <div id="main">
+        <section id="education">
+            <h2>🎓 Education</h2>
+            <p><strong>China University of Mining and Technology</strong>, MSc in Mechanical Engineering, 2023.09 – Present<br>
+            - Top 4 in admission; First-class Scholarship.</p>
+            <p><strong>Chongqing University of Science & Technology</strong>, BEng in Mechanical Design and Automation, 2014.09 – 2018.06<br>
+            - GPA: 3.33 / 4.0</p>
+        </section>
 
-  <div class="section">
-    <h2>🎓 Education</h2>
-    <p><strong>China University of Mining and Technology</strong>, MSc in Mechanical Engineering (2023.09 – Present)</p>
-    <ul>
-      <li>Ranked 4th in entrance exam; First-class scholarship</li>
-    </ul>
-    <p><strong>Chongqing University of Science and Technology</strong>, BSc in Mechanical Design, Manufacturing and Automation (2014.09 – 2018.06)</p>
-    <ul>
-      <li>GPA: 3.33</li>
-    </ul>
-  </div>
+        <section id="experience">
+            <h2>💼 Work Experience</h2>
+            <p><strong>Chengdu Chenglin CNC Tools Co., Ltd.</strong> – Mechanical Engineer (2019 ~)<br>
+            - Designed custom non-standard tools (eccentric turning, modular heads, multi-hole boring, hydraulic holders).<br>
+            - Led development of new products and technical drawings (ProE, CAD), process sheets.<br>
+            - On-site machining troubleshooting experience. Familiar with materials like 42CrMo, and treatments: quenching, blackening, sandblasting, etc.</p>
 
-  <div class="section">
-    <h2>💼 Experience</h2>
-    <p><strong>Mechanical Engineer</strong>, Chengdu Chenglin CNC Tool Co., Ltd. (2019 – 2021)</p>
-    <ul>
-      <li>Designed non-standard turning/boring tools and hydraulic holders</li>
-      <li>Proficient in Pro/E and CAD for drawings and process planning</li>
-      <li>Hands-on machining and problem-solving experience</li>
-    </ul>
+            <p><strong>Nanjing Lego Medical Devices Co., Ltd.</strong> – Project Manager (2021 ~)<br>
+            - Led R&D for photon therapy device and dry heat sterilizer.<br>
+            - Coordinated procurement, electronics, and assembly teams.<br>
+            - Designed full product architecture, components (SolidWorks), compiled SOPs, internal standards.<br>
+            - Assisted with medical product reviews and audits on-site, enhancing communication and documentation skills.</p>
+        </section>
 
-    <p><strong>Project Manager</strong>, Nanjing Lego Medical Co., Ltd. (2021 – 2023)</p>
-    <ul>
-      <li>Led product development of phototherapy devices and sterilizers</li>
-      <li>Designed sheet metal, thermal modules, and coordinated teams</li>
-      <li>Participated in medical product regulatory submission and documentation</li>
-    </ul>
-  </div>
+        <section id="projects">
+            <h2>🛠 Research Project</h2>
+            <p><strong>Master Thesis</strong>: Fault Diagnosis of Rolling Bearings under Harsh Conditions<br>
+            - Built custom bearing–gearbox test rig.<br>
+            - Proposed a dual-core adaptive sparse denoising method.<br>
+            - Developed a structured manifold learning model for noisy diagnosis.<br>
+            - Currently exploring a dictionary learning method using permutation matrix + relaxed block diagonalization for domain adaptation.</p>
+        </section>
 
-  <div class="section">
-    <h2>🔬 Research</h2>
-    <p><strong>Master’s Thesis:</strong> Fault Diagnosis of Bearings in Harsh Industrial Conditions</p>
-    <ul>
-      <li>Proposed novel dictionary-learning denoising and diagnosis methods</li>
-      <li>Published/submitted to Mechanical Systems and Signal Processing (MSSP)</li>
-      <li>Built experimental rig and developed multiple fault classification algorithms</li>
-    </ul>
-  </div>
+        <section id="publications">
+            <h2>📚 Publications</h2>
+            <ul>
+                <li>“Enhancing Interpretability via Fine-Grained Targets: A Structured Model for Bearing Faults under Noise” – 1st Author, under review at MSSP.</li>
+                <li>“A Novel Dual-Core Adaptive Nonlocal Sparse Network for Fault Denoising” – 1st Author, in revision.</li>
+            </ul>
+        </section>
 
-  <div class="section">
-    <h2>📄 Publications</h2>
-    <ul>
-      <li><strong>Submitted</strong>: A Manifold Learning Model for Noisy Bearing Diagnosis (MSSP)</li>
-      <li><strong>In Prep</strong>: Dual-Core Adaptive Sparse Network for Bearing Fault Denoising</li>
-    </ul>
-  </div>
+        <section id="skills">
+            <h2>🧠 Skills</h2>
+            <ul>
+                <li>Proficient in SolidWorks, ProE, AutoCAD</li>
+                <li>Programming: Python, Matlab, C</li>
+                <li>Signal processing & dictionary learning for noisy domains</li>
+                <li>Optimization: Block coordinate descent, ADMM</li>
+            </ul>
+        </section>
 
-  <div class="section">
-    <h2>🛠️ Skills</h2>
-    <ul>
-      <li>CAD: SolidWorks, Pro/E, AutoCAD</li>
-      <li>Programming: Python, C, MATLAB</li>
-      <li>Optimization: BCD, ADMM, convex methods</li>
-      <li>Signal processing: Dictionary learning, structured sparsity</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>💬 About Me</h2>
-    <p>I’m passionate about mechanical design, signal processing, and interdisciplinary innovation. I’m a reliable, diligent, and quick-learning individual who enjoys fishing in my free time.</p>
-  </div>
-
-  <div class="section">
-    <h2>📥 Download</h2>
-    <p><a href="CV_MingLi.pdf" target="_blank">Click here to download my CV</a></p>
-  </div>
-
+        <footer>
+            <p>Last updated: July 2025 | © Tianchi Zhao</p>
+        </footer>
+    </div>
 </body>
+
 </html>
+
 
