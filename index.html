@@ -20,6 +20,23 @@
     a:hover {
               text-decoration: underline;
             }
+
+    .outer-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .side-image {
+      width: 100px;
+      padding: 20px 10px;
+    }
+
+    .side-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
     
     .container {
       max-width: 800px;
@@ -71,10 +88,14 @@
     }
   </style>
 </head>
+  
 <body>
-
+<div class="outer-wrapper">
+    <div class="side-image left">
+      <img src="imgs/left.png" alt="Left Image">
+    </div>
+  
   <div class="container">
-
     <div class="header">
       <div class="intro">
         <h1>Tianchi Zhao</h1>
@@ -133,7 +154,12 @@
 
     </div>
   </div>
-
+  
+<div class="side-image right">
+      <img src="imgs/right.png" alt="Right Image">
+    </div>
+  </div>
+  
 </body>
 </html>
 
