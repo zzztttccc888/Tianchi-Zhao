@@ -21,29 +21,35 @@
               text-decoration: underline;
             }
 
-    .outer-wrapper {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-    }
+.outer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  min-height: 100vh;
+}
 
-    .side-image {
-      width: 100px;
-      padding: 20px 10px;
-    }
+.side-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  gap: 20px;
+  background-color: #f9f9f9; /* 可选：给左右留白背景 */
+}
 
-    .side-image img {
-      width: 140px;     
-      height: auto;
-      margin-top: 100px; 
-    }
-    
-    .container {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-    }
+.side-column img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.container {
+  width: 800px;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
 
     .header {
       display: flex;
@@ -91,8 +97,10 @@
   
 <body>
 <div class="outer-wrapper">
-    <div class="side-image left">
+    <div class="side-column">
       <img src="imgs/left.png">
+      <img src="imgs/left2.png">
+      <img src="imgs/left3.png">
     </div>
   
   <div class="container">
@@ -155,7 +163,7 @@
     </div>
   </div>
   
-<div class="side-image right">
+<div class="side-columnt">
       <img src="imgs/right.png">
     </div>
   </div>
